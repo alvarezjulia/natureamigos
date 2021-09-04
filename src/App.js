@@ -1,9 +1,13 @@
-import './App.css';
 import { WelcomePage } from './pages/WelcomePage';
+import { RouteMap } from './components/RouteMap';
 
 const App = () => {
-  return (
-   <WelcomePage/>
+
+    return (
+      <>
+      <WelcomePage/>
+      <RouteMap/>
+      </>
   );
 }
 

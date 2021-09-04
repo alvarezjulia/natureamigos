@@ -1,9 +1,10 @@
-import * as React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ReactMapGL, {Source, Layer}  from 'react-map-gl';
-// import 'mapbox-gl/dist/mapbox-gl.css';
+import 'mapbox-gl/dist/mapbox-gl.css';
+import Papa from 'papaparse';
+import runningRoutes from '../assets/running_routes.csv';
 
-export const RouteMap = () => {
+export const RouteMap = ({currentRoute}) => {
     const [viewport, setViewport] = useState({
         width: 800,
         height: 800,
@@ -11,23 +12,34 @@ export const RouteMap = () => {
         longitude:  6.78278,
         zoom: 12
     });
+    const [coordinates, setCoordinates] = useState(null);
+
+    const loadCSVData = () => {
+        Papa.parse(runningRoutes, {
+            download: true,
+            header: true,
+            complete: function (input) {
+                const records = input.data;
+                const walk = records.filter(e => e.route_no === currentRoute).map(e=> [e.longitude,e.latitude])
+                setCoordinates(walk);
+            }
+        });
+    }
+
+    useEffect(() => {
+       loadCSVData(currentRoute)
+    }, [currentRoute]);
 
     const polylineGeoJSON = {
-        "type": "geojson",
-        "data": {
-            "type": "Feature",
-            "properties": {},
-            "geometry": {
-                "type": "LineString",
-                "'coordinates": [
-                    [6.789270, 51.203125],
-                    [6.810906, 51.228721],
-                    [6.833195, 51.240817],
-                    [6.846047, 51.263046]
-                ]
-            }
-        }
-    };
+        "type": "Feature",
+        "geometry": {
+        "type": "LineString",
+            "coordinates": coordinates
+    },
+        "properties": {
+        "name": "Walking Routes"
+    }
+    }
 
     return (
         <ReactMapGL

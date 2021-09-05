@@ -1,7 +1,283 @@
 .Heading {
-    position: absolute;
   width: 1392px;
   height: 80px;
   left: 144px;
   top: 173px;
+  }
+
+.BlogContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 1680px;
+  height: 947px;
+  left: 0px;
+  top: 1478px;
+}
+
+.ArticleBackground1{
+width: 560px;
+height: 807px;
+left: 0px;
+top: 0px;
+background: #F8FBF6;
+}
+
+.ArticlePic1{
+width: 400px;
+height: 270px;
+left: 80px;
+top: 64px;
+background-image: url("yoga-6128120_640.jpg");
+background-repeat: no-repeat;
+}
+
+.ArticleTitle1{
+width: 686px;
+height: 36px;
+left: 91px;
+top: 421px;
+
+/* Titel */
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.015em;
+text-transform: capitalize;
+
+color: #000000;
+}
+
+.ArticleText1{
+width: 378px;
+height: 189px;
+left: 80px;
+top: 490px;
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+letter-spacing: 0.015em;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+.ReadMoreButton1{
+  width: 130px;
+  height: 40px;
+  left: 215px;
+  top: 712px;
+}
+
+.ReadMore1{
+left: 15.38%;
+right: 15.38%;
+top: 25%;
+bottom: 25%;
+
+/* Button */
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'liga' off;
+
+color: #000000;
+}
+
+.ArticleBackground2{
+width: 560px;
+height: 807px;
+left: 561px;
+top: 0px;
+background: #606B47;
+}
+
+.ArticlePic2{
+  width: 400px;
+  height: 270px;
+  left: 80px;
+  top: 67px;
+  background-image: url("senior-3363949_640.jpg");
+  background-repeat: no-repeat;
+}
+
+.ArticleTitle2{
+width: 686px;
+height: 36px;
+left: 91px;
+top: 421px;
+
+/* Titel */
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.015em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.ArticleText2{
+  position: absolute;
+width: 378px;
+height: 189px;
+left: 91px;
+top: 490px;
+
+/* Body P */
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+letter-spacing: 0.015em;
+
+color: rgba(255, 255, 255, 0.8);
+}
+
+.ReadMoreButton2{
+  width: 130px;
+  height: 40px;
+  left: 215px;
+  top: 712px;  
+}
+
+.ReadMore2{
+left: 15.38%;
+right: 15.38%;
+top: 25%;
+bottom: 25%;
+
+/* Button */
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'liga' off;
+
+color: #FFFFFF;
+}
+
+.ArticleBackground3{
+width: 560px;
+height: 807px;
+left: 1121px;
+top: 0px;
+
+background: #F8FBF6;
+  }
+  
+  .ArticlePic3{
+  position: absolute;
+width: 400px;
+height: 270px;
+left: 80px;
+top: 64px;
+
+background: url("architecture-2371294_640.jpg");
+  }
+  
+  .ArticleTitle3{
+  width: 686px;
+  height: 36px;
+  left: 91px;
+  top: 421px;
+  
+  /* Titel */
+  
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  
+  letter-spacing: 0.015em;
+  text-transform: capitalize;
+  
+  color: #FFFFFF;
+  }
+  
+  .ArticleText3{
+width: 378px;
+height: 189px;
+left: 91px;
+top: 540px;
+
+/* Body P */
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+letter-spacing: 0.015em;
+
+color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .ReadMoreButton3{
+width: 130px;
+height: 40px;
+left: 215px;
+top: 729px;
+ 
+  }
+  
+  .ReadMore3{
+    left: 15.38%;
+    right: 15.38%;
+    top: 25%;
+    bottom: 25%;
+    
+    /* Button */
+    
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    
+    color: #000000;
   }

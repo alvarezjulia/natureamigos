@@ -6,7 +6,7 @@ export const WalkOptions = ({setCurrentRoute, currentRoute}) => {
     const parkNames = [
         'Aaper Wald',
         'Flughafenrunde',
-        'Grosse Brueckenrunde',
+        'Große Brueckenrunde',
         'Hofgarten',
         'IHZ-Park',
         'Kleine Brueckenrunde',
@@ -15,8 +15,8 @@ export const WalkOptions = ({setCurrentRoute, currentRoute}) => {
         'Rheinparkrunde',
         'Schlosspark Benrath',
         'Sportmeile Grafenberg',
-        'Suedbruecke',
-        'Suedparkrunde',
+        'Südbruecke',
+        'Südparkrunde',
         'Ulenbergpark',
         'Unterbacher See',
         'Zoopark'

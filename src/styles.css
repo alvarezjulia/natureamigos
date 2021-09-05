@@ -1,83 +1,139 @@
-.App {
+.Heading {
+  top: 50px;
+  width: 100%;
+  font-family: Vidaloka;
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+line-height: 80px;
 
-}
+text-align: center;
+letter-spacing: 0.07em;
+text-transform: capitalize;
+color: #FFFFFF;
+text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+  }
+
 
 .BlogContainer{
   display: flex;
   flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
-  width: 1680px;
+  width: auto;
   height: 947px;
   left: 0px;
   top: 1478px;
+  margin:20px 0;
 }
 
 .ArticleBackgroundWhite{
-width: 560px;
-height: 807px;
+width: 33%;
+height: 800px;
 left: 0px;
 top: 0px;
 background: #F8FBF6;
 padding: 80px;
 }
 
-
-.ArticleTitle1{
-width: 686px;
-height: 36px;
-left: 91px;
-top: 421px;
-padding-top: 40px;
-padding-bottom: 40px;
-
-/* Titel */
-
-font-family: Avenir Next;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 36px;
-/* identical to box height, or 150% */
-
-letter-spacing: 0.015em;
-text-transform: capitalize;
-
-color: #000000;
-margin: auto;
+.ArticlePic1{
+width: 400px;
+height: 270px;
+left: 80px;
+top: 64px;
+background-repeat: no-repeat;
 }
 
-.ArticleText1{
-width: 378px;
-height: 189px;
-left: 80px;
-top: 490px;
-padding-bottom: 40px;
+.ArticleTitle1 {
+  width: 686px;
+  height: 36px;
+  left: 91px;
+  top: 421px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+  /* Titel */
+  
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  
+  letter-spacing: 0.015em;
+  text-transform: capitalize;
 
-font-family: Avenir Next;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 30px;
-/* or 167% */
+  margin: auto;
+}
+.ArticleTitle3 {
+  width: 686px;
+  height: 36px;
+  left: 91px;
+  top: 421px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+  /* Titel */
+  
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  
+  letter-spacing: 0.015em;
+  text-transform: capitalize;
 
-letter-spacing: 0.015em;
-
-color: rgba(0, 0, 0, 0.8);
-margin: auto;
+  margin: auto;
+}
+.ArticleText1 {
+  width: auto;
+  height: 189px;
+  left: 80px;
+  top: 490px;
+  padding-bottom: 40px;
+  
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  
+  letter-spacing: 0.015em;
+  
+  margin: auto;
+}
+.ArticleText3 {
+  width: auto;
+  height: 189px;
+  left: 80px;
+  top: 490px;
+  padding-bottom: 40px;
+  
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  
+  letter-spacing: 0.015em;
+  
+  margin: auto;
 }
 
 .ReadMoreButton{
-  width: 130px;
-  height: 40px;
-  left: 215px;
-  top: 712px;
+  padding: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ReadMore{
-left: 15.38%;
-right: 15.38%;
-top: 25%;
-bottom: 25%;
+
 
 /* Button */
 
@@ -97,63 +153,23 @@ color: #000000;
 }
 
 .ArticleBackgroundGreen{
-width: 560px;
-height: 807px;
-left: 561px;
-top: 0px;
+
 background: #606B47;
+width: 33%;
+height: 800px;
+left: 0px;
+top: 0px;
+padding: 80px;
 }
 
 
 .ArticleTitle2{
-width: 686px;
-height: 36px;
-left: 91px;
-top: 421px;
-padding: 90px;
-
-/* Titel */
-
-font-family: Avenir Next;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 36px;
-/* identical to box height, or 150% */
-
-letter-spacing: 0.015em;
-text-transform: capitalize;
-
-color: #FFFFFF;
-}
-
-.ArticleText2{
-  position: absolute;
-width: 378px;
-height: 189px;
-left: 91px;
-top: 490px;
-
-/* Body P */
-
-font-family: Avenir Next;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 30px;
-/* or 167% */
-
-letter-spacing: 0.015em;
-
-color: rgba(255, 255, 255, 0.8);
-}
-
-
-  .ArticleTitle3{
   width: 686px;
   height: 36px;
   left: 91px;
   top: 421px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   
   /* Titel */
   
@@ -166,48 +182,34 @@ color: rgba(255, 255, 255, 0.8);
   
   letter-spacing: 0.015em;
   text-transform: capitalize;
-  
-  color: #FFFFFF;
-  }
-  
-  .ArticleText3{
-width: 378px;
-height: 189px;
-left: 91px;
-top: 540px;
 
-/* Body P */
-
-font-family: Avenir Next;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 30px;
-/* or 167% */
-
-letter-spacing: 0.015em;
-
-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  
-  /*
-  top: 50px;
-  width: 100%;
-  font-family: Vidaloka;
-font-style: normal;
-font-weight: normal;
-font-size: 56px;
-line-height: 80px;
-*/
-/* identical to box height, or 143% */
- /*
-text-align: center;
-letter-spacing: 0.07em;
-text-transform: capitalize;
+  margin: auto;
 color: #FFFFFF;
-// text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
-  */
+}
+
+.ArticleText2{
+  width: auto;
+  height: 189px;
+  left: 80px;
+  top: 490px;
+  padding-bottom: 40px;
+  
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  
+  letter-spacing: 0.015em;
+  
+  margin: auto;
+color: rgba(255, 255, 255, 0.8);
+}
+
+
+  
+
   .Navbar {
   display: flex;
   flex-direction: row;
@@ -250,7 +252,13 @@ color: #FFFFFF;
     justify-content: center; 
     align-items: center; 
 }
-
+.Buttonwhite {
+  color: #FFFFFF;
+  padding: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* mouse over link */
 a:hover {
@@ -264,6 +272,44 @@ a:active {
   color: #F5966C;
   text-decoration: underline;
 }
-.form{
-  border: #606B47;
+.form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+  
+}
+.input {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: solid #606B47 0.5px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  outline: none;
+  
+  
+}
+.Parkintroduction {
+  margin: 3% 1% 1%;
+  
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+
+/* Body P Large */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 50px;
+/* or 139% */
+
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #000000;
 }

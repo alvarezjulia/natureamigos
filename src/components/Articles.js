@@ -1,13 +1,13 @@
 export const Articles = () => {
     return (
-        <div>
+        <div className="Article">
             <div>Articles</div>
             <div>Articles</div>
             <div>Articles</div>
-
-            <button>Load more</button>
+            
+            
         </div>
-
+        
     )
 }
 

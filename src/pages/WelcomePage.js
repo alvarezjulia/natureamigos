@@ -39,7 +39,7 @@ export const WelcomePage = () => {
 
             <div className="flex flex-row justify-center px-4 w-full">
                 <RouteMap currentRoute={currentRoute} />
-                <WalkOptions setCurrentRoute={setCurrentRoute} />
+                <WalkOptions setCurrentRoute={setCurrentRoute}  currentRoute={currentRoute} />
             </div>
 
             <Articles />

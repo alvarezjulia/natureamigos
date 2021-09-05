@@ -4,6 +4,7 @@ import { RouteMap } from '../components/RouteMap';
 import { useState } from 'react';
 import { WalkOptions } from '../components/WalkOptions';
 import '../styles.css';
+import { Header } from '../components/Header';
 
 
 export const WelcomePage = () => {
@@ -14,6 +15,7 @@ export const WelcomePage = () => {
             <header id="header" className="App-header">
                 <Navbar />
             </header>
+            <Header/>
             <div>
                 <h1 className="Heading">
                     Find your daily route
@@ -24,21 +26,21 @@ export const WelcomePage = () => {
                 Nice walks around
             </div>
 
-
-
             <form>
                 <input type="text" placeholder="Where do you live?"></input>
             </form>
 
-            <p>Top 4 Parks in Düsseldorf</p>
+            <p>Take a look at the parks in Düsseldorf!</p>
 
             <div></div>
             <div></div>
             <div></div>
             <div></div>
 
-            <RouteMap currentRoute={currentRoute} />
-            <WalkOptions setCurrentRoute={setCurrentRoute} />
+            <div className="flex flex-row justify-center px-4 w-full">
+                <RouteMap currentRoute={currentRoute} />
+                <WalkOptions setCurrentRoute={setCurrentRoute} />
+            </div>
 
             <Articles />
 

@@ -43,7 +43,7 @@ export const RouteMap = ({currentRoute}) => {
 
     return (
         <div className="w-1/2 px-10">
-        <ReactMapGL
+            <ReactMapGL
             {...viewport}
             onViewportChange={nextViewport => setViewport(nextViewport)}
         >

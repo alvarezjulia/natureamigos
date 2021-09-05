@@ -1,3 +1,6 @@
+.App {
+
+}
 .Heading {
   width: 1392px;
   height: 80px;
@@ -283,27 +286,27 @@ top: 729px;
   }
   /*
   top: 50px;
+  width: 100%;
   font-family: Vidaloka;
 font-style: normal;
 font-weight: normal;
 font-size: 56px;
 line-height: 80px;
-
+*/
+/* identical to box height, or 143% */
+ /*
 text-align: center;
 letter-spacing: 0.07em;
 text-transform: capitalize;
-
 color: #FFFFFF;
-
-text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
-  }
-*/
+// text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+  */
   .Navbar {
   display: flex;
   flex-direction: row;
   align-items: right;
   justify-content: space-around;
-  padding: 0px ;
+  padding: 20px;
   position: absolute;
   width: auto;
   height: 40px;
@@ -312,8 +315,7 @@ text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
   font-weight: 100;
   order: 1;
   flex-grow: 1;
-  margin: 0px 0px;
-  background-color: aqua;
+  margin-right: 20px;
  }
  .Nav {
   font-family: Montserrat;
@@ -323,6 +325,8 @@ font-size: 18px;
 line-height: 24px;
 padding: 0px 10px;
 /* identical to box height, or 133% */
+padding: 15px;
+
 
 color: #FFFFFF;
  }
@@ -338,4 +342,21 @@ color: #FFFFFF;
   display: flex;
     justify-content: center; 
     align-items: center; 
+}
+
+
+/* mouse over link */
+a:hover {
+  color: #EADBA8;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #F5966C;
+  text-decoration: underline;
+}
+.form{
+  border: #606B47;
 }

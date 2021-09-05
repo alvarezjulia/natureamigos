@@ -17,17 +17,9 @@ export const WelcomePage = () => {
                 <Navbar />
             </header>
             <Header/>
-            <div>
-                <h1 className="Heading">
-                    Find your daily route
-                </h1>
-                <p>Walking is healthy!</p>
-            </div>
-            <div>
-                Nice walks around
-            </div>
+            
 
-            <form>
+            <form className="form">
                 <input type="text" placeholder="Where do you live?"></input>
             </form>
 

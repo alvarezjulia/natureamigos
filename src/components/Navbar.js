@@ -1,11 +1,11 @@
 
 export const Navbar = () => {
     return (
-        <nav>
-            <a href="#header">Parks</a>
-            <a href="">News</a>
-            <a href="">Group Up</a>
-            <a href="">Impressum</a>
+        <nav className="Navbar">
+            <a href="#header" className="Nav">Parks</a>
+            <a href="" className="Nav">News</a>
+            <a href="" className="Nav">Group Up</a>
+            <a href="" className="Nav">Impressum</a>
         </nav>
     )
 }

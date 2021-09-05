@@ -41,6 +41,9 @@ export const WelcomePage = () => {
             <WalkOptions setCurrentRoute={setCurrentRoute} />
 
             <Articles />
+            <button className="Button">Load more</button>
+
+           
 
 
             <footer>

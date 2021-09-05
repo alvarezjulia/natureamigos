@@ -36,9 +36,9 @@ export const WelcomePage = () => {
             </div>
 
 
-            <div className="w-full flex justify-items-center">
-                Air pollution map in Düsseldorf
-                <img src={pollutionMap} alt="BigCo Inc. logo"/>
+            <div className="w-full flex justify-items-center items-center my-6 py-6 flex-col" style={{backgroundColor: '#F8FBF6', height: '700px'}}>
+               <h1 className="text-4xl m-2"> Air pollution map in Düsseldorf</h1>
+                <img src={pollutionMap} alt="pollution map" width="800px"/>
             </div>
             <Articles />
             <div className = "BlogContainer">

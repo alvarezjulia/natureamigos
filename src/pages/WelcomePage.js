@@ -6,6 +6,7 @@ import { WalkOptions } from '../components/WalkOptions';
 import '../styles.css';
 import { Header } from '../components/Header';
 import pollutionMap from '../assets/airpollution.png'
+import yogaImage from '../yoga-6128120_640.jpg';
 
 
 export const WelcomePage = () => {
@@ -42,12 +43,15 @@ export const WelcomePage = () => {
             </div>
             <Articles />
             <div className = "BlogContainer">
-                <div className = "ArticleBackground1">
-                    <div className = "ArticlePic1"/>
+                <div className = "ArticleBackgroundWhite">
+                    <img src={yogaImage} alt="yoga" />
                     <div className = "ArticleTitle1"> Asana Yoga in the Park</div>
-                    <div classNAme = "ArticleText1"> Every Thursday at 7 p.m. Lisa guides you through a Bikram Yoga session in this park for an hour. 
+                    <div className = "ArticleText1"> Every Thursday at 7 p.m. Lisa guides you through a Bikram Yoga session in this park for an hour. 
                     Skilful and personable, with a microphone and music. Meanwhile 100 yogis like to gather with their mats in this spacious area 
                     in the park which makes the experience even more impressive.</div>
+                    <div className = "ReadMoreButton">
+                        <div className = "ReadMore"/>
+                    </div>
                 </div>
             </div>
             

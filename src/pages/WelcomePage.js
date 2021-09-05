@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { WalkOptions } from '../components/WalkOptions';
 import '../styles.css';
 import { Header } from '../components/Header';
+import pollutionMap from '../assets/airpollution.png'
 
 
 export const WelcomePage = () => {
@@ -42,6 +43,11 @@ export const WelcomePage = () => {
                 <WalkOptions setCurrentRoute={setCurrentRoute}  currentRoute={currentRoute} />
             </div>
 
+
+            <div className="w-full flex justify-items-center">
+                Air pollution map in Düsseldorf
+                <img src={pollutionMap} alt="BigCo Inc. logo"/>
+            </div>
             <Articles />
             <button className="Button">Load more</button>
 

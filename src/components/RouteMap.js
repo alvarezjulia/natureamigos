@@ -6,8 +6,8 @@ import runningRoutes from '../assets/running_routes.csv';
 
 export const RouteMap = ({currentRoute}) => {
     const [viewport, setViewport] = useState({
-        width: 800,
-        height: 800,
+        width: 880,
+        height: 880,
         latitude: 51.2256,
         longitude:  6.78278,
         zoom: 12
@@ -42,6 +42,7 @@ export const RouteMap = ({currentRoute}) => {
     }
 
     return (
+        <div className="w-1/2 px-10">
         <ReactMapGL
             {...viewport}
             onViewportChange={nextViewport => setViewport(nextViewport)}
@@ -56,12 +57,13 @@ export const RouteMap = ({currentRoute}) => {
                 'line-cap': 'round',
             }}
             paint={{
-                'line-color': 'rgba(3, 170, 238, 0.5)',
+                'line-color': 'rgba(6, 95, 70, 0.7)',
                 'line-width': 8,
             }}
         />
     </Source>
         </ReactMapGL>
+        </div>
     );
 }
 

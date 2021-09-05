@@ -21,10 +21,10 @@ export const WelcomePage = () => {
 
 
             <form className="form">
-                <input type="text" placeholder="Where do you live?"></input>
+                <input className="input" type="text" placeholder="Where do you live?"></input>
             </form>
 
-            <p>Take a look at the parks in Düsseldorf!</p>
+            <p className="Parkintroduction">Take a look at the parks in Düsseldorf!</p>
 
             <div></div>
             <div></div>
@@ -50,7 +50,27 @@ export const WelcomePage = () => {
                     Skilful and personable, with a microphone and music. Meanwhile 100 yogis like to gather with their mats in this spacious area 
                     in the park which makes the experience even more impressive.</div>
                     <div className = "ReadMoreButton">
-                        <div className = "ReadMore"/>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+                <div className = "ArticleBackgroundGreen"  id="news">
+                    <img src={yogaImage} alt="yoga" />
+                    <div className = "ArticleTitle2"> Asana Yoga in the Park</div>
+                    <div className = "ArticleText2"> Every Thursday at 7 p.m. Lisa guides you through a Bikram Yoga session in this park for an hour. 
+                    Skilful and personable, with a microphone and music. Meanwhile 100 yogis like to gather with their mats in this spacious area 
+                    in the park which makes the experience even more impressive.</div>
+                    <div className = "Buttonwhite">
+                    <a href="">Read More</a>
+                    </div>
+                </div>
+                <div className = "ArticleBackgroundWhite"  id="news">
+                    <img src={yogaImage} alt="yoga" />
+                    <div className = "ArticleTitle3"> Asana Yoga in the Park</div>
+                    <div className = "ArticleText3"> Every Thursday at 7 p.m. Lisa guides you through a Bikram Yoga session in this park for an hour. 
+                    Skilful and personable, with a microphone and music. Meanwhile 100 yogis like to gather with their mats in this spacious area 
+                    in the park which makes the experience even more impressive.</div>
+                    <div className = "ReadMoreButton">
+                        <a href="">Read More</a>
                     </div>
                 </div>
             </div>

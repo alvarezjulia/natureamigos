@@ -36,50 +36,50 @@ export const WelcomePage = () => {
             </div>
 
 
-            <div className="w-full flex justify-items-center items-center my-6 py-6 flex-col" style={{ backgroundColor: '#F8FBF6', height: '700px' }}>
+            <div id="pollution" className="w-full flex justify-items-center items-center my-6 py-6 flex-col" style={{ backgroundColor: '#F8FBF6', height: '700px' }}>
                 <h1 className="text-4xl m-2"> Air pollution map in Düsseldorf</h1>
                 <img src={pollutionMap} alt="pollution map" width="800px" />
             </div>
             <Articles />
-            <div className = "BlogContainer">
-                <div className = "ArticleBackgroundWhite"  id="news">
+            <div className="BlogContainer">
+                <div className="ArticleBackgroundWhite" id="news">
                     <img src={yogaImage} alt="yoga" />
-                    <div className = "ArticleTitle1"> Asana Yoga in the Park</div>
-                    <div className = "ArticleText1"> Every Thursday at 7 p.m. Lisa guides you through a Bikram Yoga session in this park for an hour. 
-                    Skilful and personable, with a microphone and music. Meanwhile 100 yogis like to gather with their mats in this spacious area 
-                    in the park which makes the experience even more impressive.</div>
-                    <div className = "ReadMoreButton">
+                    <div className="ArticleTitle1"> Asana Yoga in the Park</div>
+                    <div className="ArticleText1"> Every Thursday at 7 p.m. Lisa guides you through a Bikram Yoga session in this park for an hour.
+                        Skilful and personable, with a microphone and music. Meanwhile 100 yogis like to gather with their mats in this spacious area
+                        in the park which makes the experience even more impressive.</div>
+                    <div className="ReadMoreButton">
                         <a href="">Read More</a>
                     </div>
                 </div>
-                <div className = "ArticleBackgroundGreen"  id="news">
+                <div className="ArticleBackgroundGreen" id="news">
                     <img src={yogaImage} alt="yoga" />
-                    <div className = "ArticleTitle2"> Asana Yoga in the Park</div>
-                    <div className = "ArticleText2"> Every Thursday at 7 p.m. Lisa guides you through a Bikram Yoga session in this park for an hour. 
-                    Skilful and personable, with a microphone and music. Meanwhile 100 yogis like to gather with their mats in this spacious area 
-                    in the park which makes the experience even more impressive.</div>
-                    <div className = "Buttonwhite">
-                    <a href="">Read More</a>
-                    </div>
-                </div>
-                <div className = "ArticleBackgroundWhite"  id="news">
-                    <img src={yogaImage} alt="yoga" />
-                    <div className = "ArticleTitle3"> Asana Yoga in the Park</div>
-                    <div className = "ArticleText3"> Every Thursday at 7 p.m. Lisa guides you through a Bikram Yoga session in this park for an hour. 
-                    Skilful and personable, with a microphone and music. Meanwhile 100 yogis like to gather with their mats in this spacious area 
-                    in the park which makes the experience even more impressive.</div>
-                    <div className = "ReadMoreButton">
+                    <div className="ArticleTitle2"> Asana Yoga in the Park</div>
+                    <div className="ArticleText2"> Every Thursday at 7 p.m. Lisa guides you through a Bikram Yoga session in this park for an hour.
+                        Skilful and personable, with a microphone and music. Meanwhile 100 yogis like to gather with their mats in this spacious area
+                        in the park which makes the experience even more impressive.</div>
+                    <div className="Buttonwhite">
                         <a href="">Read More</a>
                     </div>
                 </div>
+                <div className="ArticleBackgroundWhite" id="news">
+                    <img src={yogaImage} alt="yoga" />
+                    <div className="ArticleTitle3"> Asana Yoga in the Park</div>
+                    <div className="ArticleText3"> Every Thursday at 7 p.m. Lisa guides you through a Bikram Yoga session in this park for an hour.
+                        Skilful and personable, with a microphone and music. Meanwhile 100 yogis like to gather with their mats in this spacious area
+                        in the park which makes the experience even more impressive.</div>
+                    <div className="ReadMoreButton">
+                        <a href="">Read More</a>
+                    </div>
                 </div>
+            </div>
 
-      <button className="More">Load more</button>
+            <button className="More">Load more</button>
 
-      <footer>
-        <p>I am footer</p>
-      </footer>
-    </div>
-    
-  );
+            <footer>
+                <p>I am footer</p>
+            </footer>
+        </div>
+
+    );
 };

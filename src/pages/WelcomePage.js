@@ -71,15 +71,15 @@ export const WelcomePage = () => {
                     <div className = "ReadMoreButton">
                         <a href="">Read More</a>
                     </div>
-                
-      </div>
+                </div>
+                </div>
 
-      <button className="Button">Load more</button>
+      <button className="More">Load more</button>
 
       <footer>
         <p>I am footer</p>
       </footer>
     </div>
-    </div>
+    
   );
 };

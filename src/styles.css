@@ -44,48 +44,85 @@ top: 64px;
 background-repeat: no-repeat;
 }
 
-.ArticleTitle1{
-width: 686px;
-height: 36px;
-left: 91px;
-top: 421px;
-padding-top: 40px;
-padding-bottom: 40px;
+.ArticleTitle1 {
+  width: 686px;
+  height: 36px;
+  left: 91px;
+  top: 421px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+  /* Titel */
+  
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  
+  letter-spacing: 0.015em;
+  text-transform: capitalize;
 
-/* Titel */
-
-font-family: Avenir Next;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 36px;
-/* identical to box height, or 150% */
-
-letter-spacing: 0.015em;
-text-transform: capitalize;
-
-color: #000000;
-margin: auto;
+  margin: auto;
 }
+.ArticleTitle3 {
+  width: 686px;
+  height: 36px;
+  left: 91px;
+  top: 421px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+  /* Titel */
+  
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  
+  letter-spacing: 0.015em;
+  text-transform: capitalize;
 
-.ArticleText1{
-width: auto;
-height: 189px;
-left: 80px;
-top: 490px;
-padding-bottom: 40px;
-
-font-family: Avenir Next;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 30px;
-/* or 167% */
-
-letter-spacing: 0.015em;
-
-color: rgba(0, 0, 0, 0.8);
-margin: auto;
+  margin: auto;
+}
+.ArticleText1 {
+  width: auto;
+  height: 189px;
+  left: 80px;
+  top: 490px;
+  padding-bottom: 40px;
+  
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  
+  letter-spacing: 0.015em;
+  
+  margin: auto;
+}
+.ArticleText3 {
+  width: auto;
+  height: 189px;
+  left: 80px;
+  top: 490px;
+  padding-bottom: 40px;
+  
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  
+  letter-spacing: 0.015em;
+  
+  margin: auto;
 }
 
 .ReadMoreButton{
@@ -171,46 +208,6 @@ color: rgba(255, 255, 255, 0.8);
 }
 
 
-  .ArticleTitle3{
-  width: 686px;
-  height: 36px;
-  left: 91px;
-  top: 421px;
-  
-  /* Titel */
-  
-  font-family: Avenir Next;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  /* identical to box height, or 150% */
-  
-  letter-spacing: 0.015em;
-  text-transform: capitalize;
-  
-  color: #000000;
-  }
-  
-  .ArticleText3{
-width: 378px;
-height: 189px;
-left: 91px;
-top: 540px;
-
-/* Body P */
-
-font-family: Avenir Next;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 30px;
-/* or 167% */
-
-letter-spacing: 0.015em;
-
-color: rgba(0, 0, 0, 0.8);
-  }
   
 
   .Navbar {

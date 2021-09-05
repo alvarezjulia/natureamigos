@@ -17,8 +17,8 @@ export const WelcomePage = () => {
             <header id="header" className="App-header">
                 <Navbar />
             </header>
-            <Header/>
-            
+            <Header />
+
 
             <form className="form">
                 <input type="text" placeholder="Where do you live?"></input>
@@ -31,19 +31,19 @@ export const WelcomePage = () => {
             <div></div>
             <div></div>
 
-            <div className="flex flex-row justify-center px-4 w-full">
+            <div className="flex flex-row justify-center px-4 w-full" id="map" >
                 <RouteMap currentRoute={currentRoute} />
-                <WalkOptions setCurrentRoute={setCurrentRoute}  currentRoute={currentRoute} />
+                <WalkOptions setCurrentRoute={setCurrentRoute} currentRoute={currentRoute} />
             </div>
 
 
-            <div className="w-full flex justify-items-center">
-                Air pollution map in Düsseldorf
-                <img src={pollutionMap} alt="BigCo Inc. logo"/>
+            <div className="w-full flex justify-items-center items-center my-6 py-6 flex-col" style={{ backgroundColor: '#F8FBF6', height: '700px' }}>
+                <h1 className="text-4xl m-2"> Air pollution map in Düsseldorf</h1>
+                <img src={pollutionMap} alt="pollution map" width="800px" />
             </div>
             <Articles />
             <div className = "BlogContainer">
-                <div className = "ArticleBackgroundWhite">
+                <div className = "ArticleBackgroundWhite"  id="news">
                     <img src={yogaImage} alt="yoga" />
                     <div className = "ArticleTitle1"> Asana Yoga in the Park</div>
                     <div className = "ArticleText1"> Every Thursday at 7 p.m. Lisa guides you through a Bikram Yoga session in this park for an hour. 
@@ -54,10 +54,10 @@ export const WelcomePage = () => {
                     </div>
                 </div>
             </div>
-            
+
             <button className="Button">Load more</button>
 
-           
+
 
 
             <footer>

@@ -1,13 +1,12 @@
 import { Navbar } from "../components/Navbar";
 import { Articles } from "../components/Articles";
-import { RouteMap } from '../components/RouteMap';
-import { useState } from 'react';
-import { WalkOptions } from '../components/WalkOptions';
-import '../styles.css';
-import { Header } from '../components/Header';
-import pollutionMap from '../assets/airpollution.png'
-import yogaImage from '../yoga-6128120_640.jpg';
-
+import { RouteMap } from "../components/RouteMap";
+import { useState } from "react";
+import { WalkOptions } from "../components/WalkOptions";
+import "../styles.css";
+import { Header } from "../components/Header";
+import pollutionMap from "../assets/airpollution.png";
+import yogaImage from "../yoga-6128120_640.jpg";
 
 export const WelcomePage = () => {
     const [currentRoute, setCurrentRoute] = useState(null);
@@ -72,18 +71,15 @@ export const WelcomePage = () => {
                     <div className = "ReadMoreButton">
                         <a href="">Read More</a>
                     </div>
-                </div>
-            </div>
+                
+      </div>
 
-            <button className="Button">Load more</button>
+      <button className="Button">Load more</button>
 
-
-
-
-            <footer>
-                <p>I am footer</p>
-            </footer>
-        </div>
-    );
-}
-
+      <footer>
+        <p>I am footer</p>
+      </footer>
+    </div>
+    </div>
+  );
+};
